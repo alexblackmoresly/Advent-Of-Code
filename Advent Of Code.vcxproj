@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8afcd330-52dd-450d-b415-d21cf6c7717c}</ProjectGuid>
+    <RootNamespace>AdventOfCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="day1.cpp" />
+    <ClCompile Include="day10.cpp" />
+    <ClCompile Include="day11.cpp" />
+    <ClCompile Include="day12.cpp" />
+    <ClCompile Include="day13.cpp" />
+    <ClCompile Include="day14.cpp" />
+    <ClCompile Include="day15.cpp" />
+    <ClCompile Include="day16.cpp" />
+    <ClCompile Include="day17.cpp" />
+    <ClCompile Include="day18.cpp" />
+    <ClCompile Include="day19.cpp" />
+    <ClCompile Include="day2.cpp" />
+    <ClCompile Include="day20.cpp" />
+    <ClCompile Include="day21.cpp" />
+    <ClCompile Include="day3.cpp" />
+    <ClCompile Include="day4.cpp" />
+    <ClCompile Include="day5.cpp" />
+    <ClCompile Include="day6.cpp" />
+    <ClCompile Include="day7.cpp" />
+    <ClCompile Include="day8.cpp" />
+    <ClCompile Include="day9.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="usefulFuncs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="day1.h" />
+    <ClInclude Include="day10.h" />
+    <ClInclude Include="day11.h" />
+    <ClInclude Include="day12.h" />
+    <ClInclude Include="day13.h" />
+    <ClInclude Include="day2.h" />
+    <ClInclude Include="day3.h" />
+    <ClInclude Include="day4.h" />
+    <ClInclude Include="day5.h" />
+    <ClInclude Include="day6.h" />
+    <ClInclude Include="day7.h" />
+    <ClInclude Include="day8.h" />
+    <ClInclude Include="day9.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="usefulFuncs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Day10Test.txt" />
+    <Text Include="Day10Text.txt" />
+    <Text Include="Day11Test.txt" />
+    <Text Include="Day11Text.txt" />
+    <Text Include="Day12Test.txt" />
+    <Text Include="Day12Text.txt" />
+    <Text Include="Day13Test.txt" />
+    <Text Include="Day13Test2.txt" />
+    <Text Include="Day13Text.txt" />
+    <Text Include="Day14Test.txt" />
+    <Text Include="Day14Text.txt" />
+    <Text Include="Day15TestMap.txt" />
+    <Text Include="Day15TestMoves.txt" />
+    <Text Include="Day16Test.txt" />
+    <Text Include="day17Text.txt" />
+    <Text Include="Day18Text.txt" />
+    <Text Include="Day19Test.txt" />
+    <Text Include="Day19Text.txt" />
+    <Text Include="Day1Text.txt" />
+    <Text Include="Day1Test.txt" />
+    <Text Include="Day20Text.txt" />
+    <Text Include="Day21Text.txt" />
+    <Text Include="Day2Test.txt" />
+    <Text Include="Day2Text.txt" />
+    <Text Include="Day3Test.txt" />
+    <Text Include="Day3Text.txt" />
+    <Text Include="Day4Test.txt" />
+    <Text Include="Day4Text.txt" />
+    <Text Include="Day5Test.txt" />
+    <Text Include="Day5TestData.txt" />
+    <Text Include="Day5Text.txt" />
+    <Text Include="Day5TextData.txt" />
+    <Text Include="Day6Test.txt" />
+    <Text Include="Day6Text.txt" />
+    <Text Include="Day7Test.txt" />
+    <Text Include="Day7Text.txt" />
+    <Text Include="Day8Test.txt" />
+    <Text Include="Day8Text.txt" />
+    <Text Include="Day9Test.txt" />
+    <Text Include="Day9TestReversed.txt" />
+    <Text Include="Day9Text.txt" />
+    <Text Include="Day9TextReversed.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Advent Of Code.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

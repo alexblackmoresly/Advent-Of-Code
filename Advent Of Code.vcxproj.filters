@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usefulFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="day1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usefulFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Day1Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day1Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day2Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day2Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day3Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day3Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day4Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day4Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day5Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day5Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day5TestData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day5TextData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day6Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day6Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day7Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day7Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day8Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day8Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day9Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day9Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day9TextReversed.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day10Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day10Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day11Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day9TestReversed.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day11Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day12Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day12Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day13Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day13Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day13Test2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day14Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day14Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day15TestMap.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day15TestMoves.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day16Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="day17Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day18Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day19Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day19Test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day20Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Day21Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Advent Of Code.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
