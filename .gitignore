@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 
+# Exclude text files to exclude inputs in AOC
+*.txt
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -361,3 +364,46 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Day21Text.txt
+/Day10Test.txt
+/Day10Text.txt
+/Day11Test.txt
+/Day11Text.txt
+/Day12Test.txt
+/Day12Text.txt
+/Day13Test.txt
+/Day13Test2.txt
+/Day13Text.txt
+/Day14Test.txt
+/Day14Text.txt
+/Day15TestMap.txt
+/Day15TestMoves.txt
+/Day16Test.txt
+/day17Text.txt
+/Day18Text.txt
+/Day19Test.txt
+/Day19Text.txt
+/Day1Test.txt
+/Day1Text.txt
+/Day20Text.txt
+/Day21Text.txt
+/Day2Test.txt
+/Day2Text.txt
+/Day3Test.txt
+/Day3Text.txt
+/Day4Test.txt
+/Day4Text.txt
+/Day5Test.txt
+/Day5TestData.txt
+/Day5Text.txt
+/Day5TextData.txt
+/Day6Test.txt
+/Day6Text.txt
+/Day7Test.txt
+/Day7Text.txt
+/Day8Test.txt
+/Day8Text.txt
+/Day9Test.txt
+/Day9TestReversed.txt
+/Day9Text.txt
+/Day9TextReversed.txt
