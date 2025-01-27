@@ -141,6 +141,7 @@
     <ClCompile Include="day2.cpp" />
     <ClCompile Include="day20.cpp" />
     <ClCompile Include="day21.cpp" />
+    <ClCompile Include="day22.cpp" />
     <ClCompile Include="day3.cpp" />
     <ClCompile Include="day4.cpp" />
     <ClCompile Include="day5.cpp" />
@@ -191,6 +192,7 @@
     <Text Include="Day1Test.txt" />
     <Text Include="Day20Text.txt" />
     <Text Include="Day21Text.txt" />
+    <Text Include="Day22Text.txt" />
     <Text Include="Day2Test.txt" />
     <Text Include="Day2Text.txt" />
     <Text Include="Day3Test.txt" />

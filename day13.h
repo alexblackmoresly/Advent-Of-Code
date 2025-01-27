@@ -18,3 +18,4 @@ void linenLayout(std::string fileURL);
 void linenLayoutPartTwo(std::string fileURL);
 void raceCondition(std::string fileURL, int cheatSize);
 void keyboardConundrum(std::string fileURL, int depth = 2);
+void monkeyMarket(std::string fileURL);

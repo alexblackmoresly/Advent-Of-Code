@@ -46,6 +46,6 @@ int main() {
 	//ramRunPartTwo("Day18Text.txt", 71);
 	//linenLayoutPartTwo("Day19Text.txt");
 	//raceCondition("Day20Text.txt", 20);
-	keyboardConundrum("Day21Text.txt", 25);
+	//keyboardConundrum("Day21Text.txt", 25);
 	return 0;
 }
